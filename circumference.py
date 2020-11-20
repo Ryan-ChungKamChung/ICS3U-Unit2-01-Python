@@ -2,7 +2,7 @@
 
 # Created by Ryan Chung Kam Chung
 # Created in November 2020
-# Program finding area and perimeter of a rectangle
+# Program finding the circumference and area of a circle
 
 
 import math
