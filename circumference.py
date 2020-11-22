@@ -2,20 +2,22 @@
 
 # Created by Ryan Chung Kam Chung
 # Created in November 2020
-# Program finding the circumference and area of a circle
+# Program finding circumference of a circle
 
 
 import math
 
 
 def main():
+    superscript = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+
     rad = 15
     circ = math.pi*2*rad
     area = math.pi*rad**2
     print("The circumference of a circle with a radius of 15mm is:")
-    print(circ)
+    print("{}mm".format(circ))
     print("The area of a circle with a radius of 15mm is::")
-    print(area)
+    print("{}mm2".translate(superscript).format(area))
 
 
 if __name__ == "__main__":
