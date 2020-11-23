@@ -9,7 +9,7 @@ import math
 
 
 def main():
-    superscript = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+    superscript = str.maketrans("2", "²")
 
     rad = 15
     circ = math.pi*2*rad
